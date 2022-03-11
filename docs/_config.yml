@@ -15,8 +15,8 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Adam Denisov
-  tagline: Developer. Designer
+  title: Shi Shaohua
+  tagline: My coding blog
   date_format: "%b %-d, %Y"
   style: black
   showNav: false
@@ -25,7 +25,7 @@ texture:
   # generate social links in footer
   social_links:
     twitter: thelehhman
-    github:  thelehhman
+    github:  shshi
     linkedIn: in/thelehhman
     rss: rss
  
