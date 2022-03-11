@@ -21,6 +21,11 @@ texture:
   style: black
   showNav: true
   showPicker: false
+  navigation:
+    - title: 文章
+      url: "/my-work"
+    - title: 简历
+      url: "/resume"
 
   # generate social links in footer
   social_links:
