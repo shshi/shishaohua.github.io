@@ -15,7 +15,7 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Shi Shaohua
+  title: 石少华的博客
   tagline: My coding blog
   date_format: "%b %-d, %Y"
   style: black
