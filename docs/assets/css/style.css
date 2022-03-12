@@ -40,7 +40,7 @@ body {
 .my_name {
 	font-family: serif,-apple-system, "Microsoft Yahei";
 	font-size: 22px;
-	margin: 10px 0 0;
+	margin: 10px 0 10px 0;
 	font-weight: bold;
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 .social-icons li{
-  display: inline;
+  display: inline-block;
 }
 
 a, a:active, a:visited {
