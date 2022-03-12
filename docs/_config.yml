@@ -7,3 +7,36 @@ paginate: 10
 
 gems: [jekyll-paginate]
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+# Author
+author:
+  name: 石少华
+  desc: Hello nice to meet you
+  email: shi.sh@foxmail.com
+  selfie: images/avatar.jpg
+
+# social
+social:
+  email: true
+  behance:
+  bitbucket:
+  dribbble:
+  facebook: Test
+  flickr:
+  github: kssim
+  google_plus:
+  instagram: https://www.instagram.com/shaohua.shi/
+  keybase:
+  linkedin:  
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:
+  steam:
+  tumblr:
+  gitlab:
+  twitter: Test
+  vimeo:
+  wordpress:
+  youtube:
+  default_txt: "Follow On"
