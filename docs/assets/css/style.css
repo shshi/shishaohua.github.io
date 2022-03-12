@@ -37,6 +37,24 @@ body {
 	line-height: 1.7;
 }
 
+.social-layer {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  color: lighten(gray, 30%);
+  font-size: 0.9em;
+
+  .social-icons {
+    ul {
+     list-style: none;
+      li {
+        display: inline;
+      }
+    }
+  }
+}
+
+
 a, a:active, a:visited {
 	text-decoration: none;
 	border-bottom: 1px solid #839496;
