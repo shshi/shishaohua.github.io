@@ -52,7 +52,13 @@ body {
   font-size: 0.9em;
 }
 
+.social-icons ul{
+  list-style: none;;
+}
 
+.social-icons li{
+  display: inline;
+}
 
 a, a:active, a:visited {
 	text-decoration: none;
