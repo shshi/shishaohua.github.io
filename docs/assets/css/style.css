@@ -56,7 +56,7 @@ body {
 }
 
 .social-icons ul li{
-  display: inline-block;
+  display: inline;
 }
 
 a, a:active, a:visited {
