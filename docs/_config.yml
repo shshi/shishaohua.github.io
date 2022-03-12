@@ -1,4 +1,4 @@
-name: 好记性韦恩
+name: 石少华
 url: http://example.org
 description: 图标之下
 
@@ -21,7 +21,7 @@ social:
   weibo: 1294004943
   douban: omega7
   dribbble:
-  facebook: Test
+  facebook:
   flickr:
   github: shshi
   google_plus:
@@ -35,7 +35,7 @@ social:
   steam:
   tumblr:
   gitlab:
-  twitter: Test
+  twitter:
   vimeo:
   wordpress:
   youtube:
