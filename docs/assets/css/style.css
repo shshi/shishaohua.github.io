@@ -48,22 +48,9 @@ body {
 }
 
 .social-layer {
-  display: block;
+  display: inline-block;
   text-align: center;
   width: 100%;
-  margin: 0 auto;
-}
-
-.social-icons ul{
-  display: inline-block;
-  list-style: none;
-  text-align: left;
-}
-
-.social-icons li{
-  display: inline-block;
-  list-style: none;
-  text-align: left;
 }
 
 a, a:active, a:visited {
