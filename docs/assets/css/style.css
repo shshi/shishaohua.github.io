@@ -53,11 +53,12 @@ body {
 }
 
 .social-icons ul{
-  list-style: none;;
+  list-style: none;
 }
 
 .social-icons li{
   display: inline-block;
+  list-style: none;
 }
 
 a, a:active, a:visited {
