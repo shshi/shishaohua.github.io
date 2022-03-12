@@ -15,11 +15,11 @@ author:
   email: shi.sh@foxmail.com
   selfie: /images/avatar.jpg
 
-# social
+# social (douban: omega7)
 social:
   email: true
   weibo: 1294004943
-  douban: omega7
+  douban:
   dribbble:
   facebook:
   flickr:
@@ -27,7 +27,7 @@ social:
   google_plus:
   instagram: shaohua.shi
   keybase:
-  linkedin:  
+  linkedin:
   pinterest:
   reddit:
   soundcloud:
