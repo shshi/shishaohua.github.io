@@ -1,6 +1,6 @@
 name: 好记性韦恩
 url: http://example.org
-description: 
+description: 图标之下
 
 permalink: /:year/:month/:day/:title/
 paginate: 10
