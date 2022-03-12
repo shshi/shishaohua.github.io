@@ -38,41 +38,8 @@
     
     <div class="social-layer">
       <div class="social-icons">
-        <ul>       
-          
-          <li>
-            <a href="mailto:{{ site.author.email }}" title="email">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/{{ site.social.github }}" title="{{ site.social.default_txt }} GitHub">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="http://instagram.com/{{ site.social.instagram }}" title="{{ site.social.default_txt }} Instagram">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="https://weibo.com/u/{{ site.social.weibo }}" title="{{ site.social.default_txt }} Weibo">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fab fa-weibo fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
+        <ul>                 
+          {% include icons.html %}          
         </ul>
       </div>
     </div>
