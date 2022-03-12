@@ -1,6 +1,6 @@
 name: 石少华
 url: http://example.org
-description: 图标之下
+description: 
 
 permalink: /:year/:month/:day/:title/
 paginate: 10
