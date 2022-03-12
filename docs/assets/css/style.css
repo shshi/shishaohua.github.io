@@ -57,11 +57,13 @@ body {
 .social-icons ul{
   display: inline-block;
   list-style: none;
+  text-align: left;
 }
 
 .social-icons li{
   display: inline-block;
   list-style: none;
+  text-align: left;
 }
 
 a, a:active, a:visited {
