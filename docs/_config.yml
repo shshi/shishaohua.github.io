@@ -1,6 +1,6 @@
 name: 好记性韦恩
 url: http://example.org
-description: 春眠不觉晓，处处闻啼鸟，夜来风雨声，花落知多少。
+description: 
 
 permalink: /:year/:month/:day/:title/
 paginate: 10
