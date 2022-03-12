@@ -3,6 +3,7 @@ layout: post
 title:  "欢迎到访！"
 date:   2022-03-11 14:23:25
 categories: jekyll update
+welcome: yes
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
