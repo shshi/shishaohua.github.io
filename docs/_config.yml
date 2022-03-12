@@ -13,7 +13,7 @@ author:
   name: 石少华
   desc: Hello nice to meet you
   email: shi.sh@foxmail.com
-  selfie: images/avatar.jpg
+  selfie: /images/avatar.jpg
 
 # social
 social:
