@@ -3,17 +3,19 @@ layout: default
 title: 石少华
 ---
 
-<article class="post">
+{% for post in paginator.posts %}
+	<article class="post">
 
-	{% if post.welcome %}
-		<h1>
-			<a href="{{ post.url }}">{{ post.title }}</a>
-		</h1>
-	{% endif %}
+		{% if post.welcome %}
+			<h1>
+				<a href="{{ post.url }}">{{ post.title }}</a>
+			</h1>
+		{% endif %}
 
-	<div class="post-content">{{ post.content }}</div>
+		<div class="post-content">{{ post.content }}</div>
 
-</article>
+	</article>
+{% endfor %}
 
 
 {% if paginator.total_pages > 1 %}
