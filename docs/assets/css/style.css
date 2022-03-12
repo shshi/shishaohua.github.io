@@ -37,6 +37,11 @@ body {
 	line-height: 1.7;
 }
 
+.my_name {
+	font-family: serif,-apple-system, "Microsoft Yahei";
+	font-size: 22px;
+}
+
 .social-layer {
   display: inline-block;
   text-align: center;
