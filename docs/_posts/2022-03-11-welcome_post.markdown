@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "欢迎来到韦恩的博客！"
+title:  "欢迎到访！"
 date:   2022-03-11 14:23:25
 categories: jekyll update
 ---
