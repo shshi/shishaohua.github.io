@@ -44,6 +44,9 @@ body {
 	font-weight: bold;
 }
 
+#social_block{
+}
+
 .social-layer {
   display: block;
   text-align: center;
@@ -52,6 +55,7 @@ body {
 }
 
 .social-icons ul{
+  display: inline-block;
   list-style: none;
 }
 
