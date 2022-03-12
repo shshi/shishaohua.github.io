@@ -50,15 +50,10 @@ body {
   width: 100%;
   color: lighten(gray, 30%);
   font-size: 0.9em;
+}
 
-  .social-icons {
-    ul {
-     list-style: none;
-      li {
-        display: inline;
-      }
-    }
-  }
+.social-icons li{
+  display: inline;
 }
 
 
