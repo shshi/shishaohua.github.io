@@ -15,7 +15,6 @@ date:   2017-09-13 20:31:06
 主要使用模块Selenium + geckodriver
 
 Selenium模块本是设计来用于网络自动化测试的，但它也完全可以被用来做一些自动化任务，比如这里的登录和签到。这里用到的是它的webdriver然后配合火狐浏览器驱动geckodriver（也有Chrome的驱动，这里可以自己选，据说火狐的稳定，所以选了火狐）。此脚本运行时你会看到火狐浏览器启动→加载登录页面→输入网站用户名和密码并登入→触发签到的整个自动化过程。代码如下（此处特意隐去网站信息和本人账户密码信息）：
-
 {% highlight ruby %}
 #-*- coding: utf-8 -*-
 from selenium import webdriver
@@ -39,10 +38,10 @@ sign(b)
 
 # 构建日志文件
 logging.basicConfig(level=logging.DEBUG, 
-                    format='%(asctime)s %(levelname)s %(message)s', 
-                    datefmt='%a, %d %b %Y %H:%M:%S', 
-                    filename='./log.log', 
-                    filemode='a')
+    format='%(asctime)s %(levelname)s %(message)s', 
+    datefmt='%a, %d %b %Y %H:%M:%S', 
+    filename='./log.log', 
+    filemode='a')
 logging.info('Successfully signed!')
 
 print "Successfully signed!" 
@@ -57,7 +56,6 @@ print "Successfully signed!"
 主要使用模块Selenium +phantomjs
 这个思路其实和脚本1一致，只是整个自动化过程在后台运行，后台模仿浏览器但不会启动浏览器。
 代码如下：
-
 {% highlight ruby %}
 #-*- coding: utf-8 -*-
 from selenium import webdriver
@@ -83,10 +81,10 @@ def sign(b):
 
     #日志文件的建立
     logging.basicConfig(level=logging.DEBUG, 
-                        format='%(asctime)s %(levelname)s %(message)s', 
-                        datefmt='%a, %d %b %Y %H:%M:%S', 
-                        filename='./log.log', 
-                        filemode='a')   
+    format='%(asctime)s %(levelname)s %(message)s', 
+    datefmt='%a, %d %b %Y %H:%M:%S', 
+    filename='./log.log', 
+    filemode='a')   
    logging.info(log) 
 sign(b)
 {% endhighlight %}
