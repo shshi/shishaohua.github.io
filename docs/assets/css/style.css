@@ -57,7 +57,7 @@ body {
 
 .social-icons li{
   float: left;
-  display: inline;
+  display: inline-block;
   list-style: none;
 }
 
