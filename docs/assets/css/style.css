@@ -42,31 +42,24 @@ body {
 	font-size: 22px;
 	margin: 10px 0 10px 0;
 	font-weight: bold;
+	position: absolute;
 }
 
 .social-layer {
   display: inline-block;
   text-align: center;
   width: 100%;
-} 
-
-.social-icons{
-  float: left;
+  color: lighten(gray, 30%);
   font-size: 0.9em;
 }
 
-.social-icons li{
-  float: left;
-  display: inline-block;
+.social-icons ul{
   list-style: none;
 }
 
-.social-icons a{
-  display: block;
-  width: 100%;
-  text-align: center;
+.social-icons li{
+  display: inline;
 }
-
 
 a, a:active, a:visited {
 	text-decoration: none;
