@@ -48,15 +48,15 @@ body {
   display: inline-block;
   text-align: center;
   width: 100%;
-  color: lighten(gray, 30%);
+  color: #cdcdcd;
   font-size: 0.9em;
 }
 
-.social-icons ul{
+.social-layer .social-icons ul {
   list-style: none;
 }
 
-.social-icons ul li{
+.social-layer .social-icons ul li {
   display: inline;
 }
 
