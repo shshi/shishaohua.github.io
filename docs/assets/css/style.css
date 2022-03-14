@@ -52,10 +52,6 @@ body {
 }
 
 .social-icons ul{
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-  font-size: 0.9em;
   list-style: none;
 }
 
