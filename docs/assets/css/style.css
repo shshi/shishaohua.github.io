@@ -46,6 +46,7 @@ body {
 
 .social-layer {
   display: inline-block;
+  text-align: center;
   width: 100%;
 } 
 
