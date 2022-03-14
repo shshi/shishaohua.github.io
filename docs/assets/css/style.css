@@ -44,17 +44,22 @@ body {
 	font-weight: bold;
 }
 
-.social-layer {
-  display: inline-block;
+.social-icons{
+  float: left;
   text-align: center;
   width: 100%;
   font-size: 0.9em;
-} 
+}
 
-.social-icons ul{
+.social-icons li{
+  float: left;
   list-style: none;
 }
 
+.social-icons a{
+  display: block;
+  text-align: center;
+}
 
 
 a, a:active, a:visited {
