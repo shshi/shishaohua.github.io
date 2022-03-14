@@ -52,7 +52,6 @@ body {
 } ***/
 
 .social-icons ul{
-  display: inline-block;
   text-align: center;
   width: 100%;
   font-size: 0.9em;
@@ -60,7 +59,7 @@ body {
 }
 
 .social-icons ul li{
-  display: inline;
+  display: inline-block;
 }
 
 a, a:active, a:visited {
