@@ -44,7 +44,7 @@ logging.basicConfig(level=logging.DEBUG,
     filemode='a')
 logging.info('Successfully signed!')
 
-print "Successfully signed!" 
+print "Successfully signed!"
 {% endhighlight %}
 
 总结：
@@ -146,9 +146,11 @@ urllib3==1.22
 {% endhighlight %}
 
 如果既想让你的脚本做后台运行同时又想让它能在网页上显示运行结果。那么你的根目录下还需要有另外两个文件，一个是名称为Procfile的文件，除此之外还要把你的yourapp.py复制一份在根目录并加上一个最简单的flask的web框架然后重新命名（如yourappweb.py）, 这个脚本将作为网页调用的脚本。Procfile内容如下：
+
 {% highlight ruby %}
-web: gunicorn yourappweb:app --log-file – 
+web: gunicorn yourappweb:app --log-file –
 {% endhighlight %}
+
 加有flask框架的yourappweb.py如下：
 {% highlight ruby %}
 import flask
