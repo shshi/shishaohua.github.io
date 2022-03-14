@@ -44,14 +44,18 @@ body {
 	font-weight: bold;
 }
 
-.social-layer {
+/*** .social-layer {
   display: inline-block;
   text-align: center;
   width: 100%;
   font-size: 0.9em;
-}
+} ***/
 
 .social-icons ul{
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-size: 0.9em;
   list-style: none;
 }
 
