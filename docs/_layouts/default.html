@@ -29,22 +29,20 @@
 
   <header id="header">
     
-  <div class="profile">
-    <img class="selfie" alt="{{ site.author.name }}" src="{{ site.author.selfie }}" style="width:100px;border-radius:50%"/>
-  </div>
-
-    <div class="my_name">{{ site.author.name }}
-      
-      <div class="social-layer">
-        <div class="social-icons">
-          <ul>                 
-            {% include icons.html %}          
-          </ul>
-        </div>
-      </div>
-      
+    <div class="profile">
+      <img class="selfie" alt="{{ site.author.name }}" src="{{ site.author.selfie }}" style="width:100px;border-radius:50%"/>
     </div>
-    
+
+    <div class="my_name">{{ site.author.name }} </div>
+
+    <div class="social-layer">
+      <div class="social-icons">
+        <ul>                 
+          {% include icons.html %}          
+        </ul>
+      </div>
+    </div>
+
     <h1><a href="/"><i class="icon-sun"></i></a></h1>
     <!-- <p>{{ site.description }}</p> -->
     
