@@ -44,6 +44,11 @@ body {
 	font-weight: bold;
 }
 
+.social-layer {
+  display: inline-block;
+  width: 100%;
+} 
+
 .social-icons{
   float: left;
   font-size: 0.9em;
