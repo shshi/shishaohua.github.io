@@ -53,7 +53,8 @@ body {
 }
 
 .social-icons ul{
-  list-style: none;
+  display: flex;
+  justify-content: center;
 }
 
 .social-icons ul li{
