@@ -1,4 +1,5 @@
-var OPENAI_API_KEY = prompt("What is your API key?");
+let tail = prompt("Please enter API key");
+var OPENAI_API_KEY = "sk"+"-0W35vx6QLvNyGoLUMUtlT"+tail;
 var bTextToSpeechSupported = false;
 var bSpeechInProgress = false;
 var oSpeechRecognizer = null
@@ -53,11 +54,7 @@ function Send() {
             if (txtOutput.value != "") txtOutput.value += "\n";
 
             try {
-                if(oHttp.responseText!=""){
-                  oJson = JSON.parse(oHttp.responseText);
-                }else{
-                  oJson = "";
-                }
+				oJson = JSON.parse(oHttp.responseText);
             } catch (ex) {
                 txtOutput.value += "Error: " + ex.message
             }
