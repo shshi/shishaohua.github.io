@@ -53,7 +53,11 @@ function Send() {
             if (txtOutput.value != "") txtOutput.value += "\n";
 
             try {
-                oJson = JSON.parse(oHttp.responseText);
+                if(oHttp.responseText!=""){
+                  oJson = JSON.parse(oHttp.responseText);
+                }else{
+                  oJson = "";
+                }
             } catch (ex) {
                 txtOutput.value += "Error: " + ex.message
             }
