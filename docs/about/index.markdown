@@ -7,7 +7,8 @@ title: About Me
 **Shi Shaohua**, a PhD student at Hong Kong Baptist University.
 
 [Research work](https://scholar.google.com/citations?user=byr8_vAAAAAJ)  
-               
+
+Social media:  
 {% include icons.html %}
 
 
