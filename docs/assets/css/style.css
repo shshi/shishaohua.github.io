@@ -134,7 +134,7 @@ h3 {
 
 /*** Structure ***/
 #page {
-	width: 500px; /*** 500px ***/
+	width: 500px;
 	margin: 0 auto;
 	position: relative;
 }
