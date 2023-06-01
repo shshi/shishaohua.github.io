@@ -168,7 +168,7 @@ h3 {
 #sidebar {
 	position: absolute;
 	text-align: right;
-	width: 100px; /*** 160px ***/
+	width: 160px; /*** 160px ***/
 	top: 0;
 	left: -200px; /*** -240px ***/
 }
