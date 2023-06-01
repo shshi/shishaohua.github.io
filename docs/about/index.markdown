@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 关于我
+title: About Me
 ---
 
 Nothing special about me
