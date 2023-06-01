@@ -161,14 +161,14 @@ h3 {
 }
 
 #content {
-	width: 1200px;
+	width: 1200px; /*** 500px ***/
 	margin: 0 auto;
 }
 
 #sidebar {
 	position: absolute;
 	text-align: right;
-	width: 160px;
+	width: 100px; /*** 160px ***/
 	top: 0;
 	left: -240px;
 }
